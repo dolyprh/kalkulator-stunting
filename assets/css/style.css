@@ -1,0 +1,51 @@
+*{
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+}
+
+#page-content{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.navbar-nav a{
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.navbar-brand img{
+  width: 50px;
+  margin-left: 20px;
+}
+.form{
+  display: flex;
+  width: 100%;
+  float: right;
+}
+.form-left{
+  display: block;
+  float: left;
+}
+.content-form .form-control{
+  width: 700px;
+}
+.label_atas, .panel-heading{
+  text-align: center;
+  background-color: rgb(8, 132, 189);
+  color: #fff;
+  padding: 10px 0;
+  margin-right: 10px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+#wrapper{
+  position: relative;
+  background-image: url("../image/bground.png");
+  background-size:cover;
+}
